@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13E3B4902F62AE34F8E0E0BC /* Pods_EnvoyEmbeddedServerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4609875B9DC4A46AA8A5144 /* Pods_EnvoyEmbeddedServerTests.framework */; };
 		98080E7A240966C300286BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98080E79240966C300286BDA /* AppDelegate.swift */; };
 		98080E7C240966C300286BDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98080E7B240966C300286BDA /* SceneDelegate.swift */; };
 		98080E7E240966C300286BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98080E7D240966C300286BDA /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		98080E86240966C500286BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98080E84240966C500286BDA /* LaunchScreen.storyboard */; };
 		98080E91240966C500286BDA /* EnvoyEmbeddedServerTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98080E90240966C500286BDA /* EnvoyEmbeddedServerTestsTests.swift */; };
 		98080E9C240966C500286BDA /* EnvoyEmbeddedServerTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98080E9B240966C500286BDA /* EnvoyEmbeddedServerTestsUITests.swift */; };
+		FAD40B0D6C9B18D3626656B6 /* Pods_EnvoyEmbeddedServerTestsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527BB70110A9A52305881622 /* Pods_EnvoyEmbeddedServerTestsTests.framework */; };
+		FFD8561BD07EDFE0DCBA010A /* Pods_EnvoyEmbeddedServerTests_EnvoyEmbeddedServerTestsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57F360A352FFB319415E6F9 /* Pods_EnvoyEmbeddedServerTests_EnvoyEmbeddedServerTestsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		197B157EE6EA0D6EE7ABBC4A /* Pods-EnvoyEmbeddedServerTestsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyEmbeddedServerTestsTests.debug.xcconfig"; path = "Target Support Files/Pods-EnvoyEmbeddedServerTestsTests/Pods-EnvoyEmbeddedServerTestsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		527BB70110A9A52305881622 /* Pods_EnvoyEmbeddedServerTestsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyEmbeddedServerTestsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA75AB4E02F6760F6742897 /* Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.debug.xcconfig"; path = "Target Support Files/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		98080E76240966C300286BDA /* EnvoyEmbeddedServerTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoyEmbeddedServerTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98080E79240966C300286BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98080E7B240966C300286BDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		98080E97240966C500286BDA /* EnvoyEmbeddedServerTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoyEmbeddedServerTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98080E9B240966C500286BDA /* EnvoyEmbeddedServerTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoyEmbeddedServerTestsUITests.swift; sourceTree = "<group>"; };
 		98080E9D240966C500286BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAD5DBC9840EBCA409F090B /* Pods-EnvoyEmbeddedServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyEmbeddedServerTests.release.xcconfig"; path = "Target Support Files/Pods-EnvoyEmbeddedServerTests/Pods-EnvoyEmbeddedServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4609875B9DC4A46AA8A5144 /* Pods_EnvoyEmbeddedServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyEmbeddedServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65BD26D47B1CF01419157C6 /* Pods-EnvoyEmbeddedServerTestsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyEmbeddedServerTestsTests.release.xcconfig"; path = "Target Support Files/Pods-EnvoyEmbeddedServerTestsTests/Pods-EnvoyEmbeddedServerTestsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5845010AE3BE11E84A0EA91 /* Pods-EnvoyEmbeddedServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyEmbeddedServerTests.debug.xcconfig"; path = "Target Support Files/Pods-EnvoyEmbeddedServerTests/Pods-EnvoyEmbeddedServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E57F360A352FFB319415E6F9 /* Pods_EnvoyEmbeddedServerTests_EnvoyEmbeddedServerTestsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyEmbeddedServerTests_EnvoyEmbeddedServerTestsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BDCF54CB335EF02670F42 /* Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.release.xcconfig"; path = "Target Support Files/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E3B4902F62AE34F8E0E0BC /* Pods_EnvoyEmbeddedServerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD40B0D6C9B18D3626656B6 /* Pods_EnvoyEmbeddedServerTestsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD8561BD07EDFE0DCBA010A /* Pods_EnvoyEmbeddedServerTests_EnvoyEmbeddedServerTestsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				98080E8F240966C500286BDA /* EnvoyEmbeddedServerTestsTests */,
 				98080E9A240966C500286BDA /* EnvoyEmbeddedServerTestsUITests */,
 				98080E77240966C300286BDA /* Products */,
+				A40B181A96EF722F0A6A1D7C /* Pods */,
+				C8EFFEE88A9780742E9BA310 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = EnvoyEmbeddedServerTestsUITests;
 			sourceTree = "<group>";
 		};
+		A40B181A96EF722F0A6A1D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5845010AE3BE11E84A0EA91 /* Pods-EnvoyEmbeddedServerTests.debug.xcconfig */,
+				9FAD5DBC9840EBCA409F090B /* Pods-EnvoyEmbeddedServerTests.release.xcconfig */,
+				5BA75AB4E02F6760F6742897 /* Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.debug.xcconfig */,
+				F35BDCF54CB335EF02670F42 /* Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.release.xcconfig */,
+				197B157EE6EA0D6EE7ABBC4A /* Pods-EnvoyEmbeddedServerTestsTests.debug.xcconfig */,
+				A65BD26D47B1CF01419157C6 /* Pods-EnvoyEmbeddedServerTestsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8EFFEE88A9780742E9BA310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4609875B9DC4A46AA8A5144 /* Pods_EnvoyEmbeddedServerTests.framework */,
+				E57F360A352FFB319415E6F9 /* Pods_EnvoyEmbeddedServerTests_EnvoyEmbeddedServerTestsUITests.framework */,
+				527BB70110A9A52305881622 /* Pods_EnvoyEmbeddedServerTestsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98080EA0240966C500286BDA /* Build configuration list for PBXNativeTarget "EnvoyEmbeddedServerTests" */;
 			buildPhases = (
+				F76CB6FBC51194D2E731E206 /* [CP] Check Pods Manifest.lock */,
 				98080E72240966C300286BDA /* Sources */,
 				98080E73240966C300286BDA /* Frameworks */,
 				98080E74240966C300286BDA /* Resources */,
+				04C7DCA4FFAA6992BB9E9270 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98080EA3240966C500286BDA /* Build configuration list for PBXNativeTarget "EnvoyEmbeddedServerTestsTests" */;
 			buildPhases = (
+				12F5EA12E6A8EF05F29A45C2 /* [CP] Check Pods Manifest.lock */,
 				98080E88240966C500286BDA /* Sources */,
 				98080E89240966C500286BDA /* Frameworks */,
 				98080E8A240966C500286BDA /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98080EA6240966C500286BDA /* Build configuration list for PBXNativeTarget "EnvoyEmbeddedServerTestsUITests" */;
 			buildPhases = (
+				F0BD976C55B0C552AE97EBB2 /* [CP] Check Pods Manifest.lock */,
 				98080E93240966C500286BDA /* Sources */,
 				98080E94240966C500286BDA /* Frameworks */,
 				98080E95240966C500286BDA /* Resources */,
+				BFE74068052B77D452B6FE01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C7DCA4FFAA6992BB9E9270 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnvoyEmbeddedServerTests/Pods-EnvoyEmbeddedServerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnvoyEmbeddedServerTests/Pods-EnvoyEmbeddedServerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnvoyEmbeddedServerTests/Pods-EnvoyEmbeddedServerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12F5EA12E6A8EF05F29A45C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnvoyEmbeddedServerTestsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE74068052B77D452B6FE01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BD976C55B0C552AE97EBB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F76CB6FBC51194D2E731E206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnvoyEmbeddedServerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98080E72240966C300286BDA /* Sources */ = {
@@ -432,6 +580,7 @@
 		};
 		98080EA1240966C500286BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5845010AE3BE11E84A0EA91 /* Pods-EnvoyEmbeddedServerTests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +599,7 @@
 		};
 		98080EA2240966C500286BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAD5DBC9840EBCA409F090B /* Pods-EnvoyEmbeddedServerTests.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,8 +618,9 @@
 		};
 		98080EA4240966C500286BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197B157EE6EA0D6EE7ABBC4A /* Pods-EnvoyEmbeddedServerTestsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
@@ -490,8 +641,9 @@
 		};
 		98080EA5240966C500286BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65BD26D47B1CF01419157C6 /* Pods-EnvoyEmbeddedServerTestsTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
@@ -512,8 +664,9 @@
 		};
 		98080EA7240966C500286BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA75AB4E02F6760F6742897 /* Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
 				INFOPLIST_FILE = EnvoyEmbeddedServerTestsUITests/Info.plist;
@@ -532,8 +685,9 @@
 		};
 		98080EA8240966C500286BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35BDCF54CB335EF02670F42 /* Pods-EnvoyEmbeddedServerTests-EnvoyEmbeddedServerTestsUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
 				INFOPLIST_FILE = EnvoyEmbeddedServerTestsUITests/Info.plist;

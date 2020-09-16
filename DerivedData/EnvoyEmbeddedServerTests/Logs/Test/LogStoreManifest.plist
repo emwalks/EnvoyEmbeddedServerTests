@@ -5,6 +5,50 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>37E0BE3E-4F1E-48EF-BF55-ABCE3C5F8A51</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>BAD8DB69-38AA-4876-A563-6D7F631F9FF5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-EnvoyEmbeddedServerTests-2020.02.28_15-23-32-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnvoyEmbeddedServerTests project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnvoyEmbeddedServerTests</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test EnvoyEmbeddedServerTests</string>
+			<key>timeStartedRecording</key>
+			<real>604596212.37486398</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test EnvoyEmbeddedServerTests</string>
+			<key>uniqueIdentifier</key>
+			<string>37E0BE3E-4F1E-48EF-BF55-ABCE3C5F8A51</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
